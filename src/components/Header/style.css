@@ -1,0 +1,46 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #ffffff;
+  padding-bottom: 0.5rem;
+  width: calc(100%-2rem);
+}
+
+header > img {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+header > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header > div > .navLink {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+
+@media (min-width: 840px) {
+  header {
+    justify-content: space-between;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+}

@@ -1,0 +1,23 @@
+.section {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.tittleContainner {
+  max-width: 320px;
+}
+
+.textContainner {
+  max-width: 650px;
+}
+
+@media (min-width: 840px) {
+  .section {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    justify-content: space-between;
+  }
+}

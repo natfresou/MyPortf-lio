@@ -1,0 +1,17 @@
+.button {
+  background: #6880ff;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 114px;
+  height: 39px;
+  cursor: pointer;
+}
+.botton:hover{
+  background: #7C91FF;
+}

@@ -1,0 +1,25 @@
+.card {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 280px;
+  height: 86px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  padding: 1rem;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+}
+li>img{
+  max-width: 30px;
+  max-height: 70px;
+}
+@media (min-width: 840px) {
+  .card  {
+    margin-right: 0rem;
+  }
+}

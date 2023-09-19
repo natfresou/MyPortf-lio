@@ -1,0 +1,63 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #ffffff;
+  width: calc(100%-2rem);
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 896px;
+  margin-bottom: 1rem;
+}
+img{
+  cursor: pointer;
+}
+.rodape1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.rodape1 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.rodape2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: right;
+  color: #ffffff;
+}
+@media (min-width: 800px) {
+  footer {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%;
+  }
+  .rodape1 {
+    justify-content: flex-start;
+  }
+  .rodape1 > div {
+    justify-content: flex-start;
+  }
+  .rodape2 {
+    flex-direction: row;
+  }
+}
