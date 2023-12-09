@@ -4,7 +4,7 @@ export const TechCard = ({ name, img }) => {
   return (
     <li className={style.card}>
       <img src={img} alt={`É uma imagem da tecnologia ${name}`} />
-      <span>{name}</span>
+      <h3>{name}</h3>
     </li>
   );
 };

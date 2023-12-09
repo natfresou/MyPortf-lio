@@ -1,30 +1,25 @@
 import "./style.css";
 import { Button } from "../Button";
-import portfolio from "../../assets/portfolio.png";
+import portfolio from "../../assets/my_portfólio.png";
 
 export const Header = () => {
-
   return (
     <header>
       <img src={portfolio} />
       <div>
-      <a class="navLink" href={"#aboutMeSection"}>
-            <p>Sobre</p>
+        <a class="navLink" href={"#aboutMeSection"}>
+          <p>Sobre</p>
         </a>
         <a class="navLink" href={"#techSection"}>
-            <p>Tecnologias</p>
+          <p>Tecnologias</p>
         </a>
         <a class="navLink" href={"#projectSection"}>
-            <p>Projetos</p>
+          <p>Projetos</p>
         </a>
-        < a class="navLink" href={"#contatoFooter"}>
-            <p>Contato</p>
+        <a class="navLink" href={"#contatoFooter"}>
+          <p>Contato</p>
         </a>
-     
-        </div>
+      </div>
     </header>
   );
 };
-
-
-  

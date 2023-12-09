@@ -6,7 +6,7 @@ import { TechCard } from "../TechCard/index";
 export const TechSection = () => {
   return (
     <section  id="techSection" className={style.section}>
-      <Title text="Tecnologias" />
+      <Title text="Hard Skills" />
       <ul className={style.ul}>
         <TechCard name={technologies[0].name} img={technologies[0].img} />
         <TechCard name={technologies[1].name} img={technologies[1].img} />
@@ -17,6 +17,9 @@ export const TechSection = () => {
         <TechCard name={technologies[6].name} img={technologies[6].img} />
         <TechCard name={technologies[7].name} img={technologies[7].img} />
         <TechCard name={technologies[8].name} img={technologies[8].img} />
+        <TechCard name={technologies[9].name} img={technologies[9].img} />
+        <TechCard name={technologies[10].name} img={technologies[10].img} />
+        <TechCard name={technologies[11].name} img={technologies[11].img} />
       </ul>
     </section>
   );

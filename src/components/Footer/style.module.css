@@ -3,9 +3,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-width: 1px 0px;
+  border-width: 2px 0px;
   border-style: solid;
-  border-color: #ffffff;
+  color: white;
   width: calc(100%-2rem);
   padding: 1rem;
   margin-left: 1rem;
@@ -28,6 +28,12 @@ img{
   justify-content: center;
   gap: 1rem;
 }
+
+
+footer>div>div>a>p{
+  color: #6880ff;
+  font-size: 1.3rem;
+}
 .rodape2 {
   display: flex;
   flex-direction: column;
@@ -41,23 +47,6 @@ img{
   text-align: right;
   color: #ffffff;
 }
-@media (min-width: 800px) {
-  footer {
-    margin-left: 0rem;
-    margin-right: 0rem;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    width: 100%;
-  }
-  .rodape1 {
-    justify-content: flex-start;
-  }
-  .rodape1 > div {
-    justify-content: flex-start;
-  }
-  .rodape2 {
-    flex-direction: row;
-  }
+footer>div>div>a:hover{
+  text-decoration: underline
 }

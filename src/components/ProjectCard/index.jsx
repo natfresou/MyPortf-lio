@@ -1,14 +1,25 @@
 import style from "./style.module.css";
-import git from "../../assets/git-icon.png";
 
-export const ProjectCard = ({ name, descricao,pLink }) => {
+export const ProjectCard = ({ name, descricao, pLink, techs, vLink }) => {
   return (
     <li className={style.card}>
-      <div>
+      <div className="div_projectCard">
         <h3>{name}</h3>
-        <img src={git} alt="imagem git" />
+        <h4>{techs}</h4>
+        {/* <img src={git} alt="imagem git" /> */}
         <p>{descricao}</p>
-        <a id="projectLink" href={pLink}>Saiba mais</a>
+        <div className="project_links">
+          <a class="projectLink_codigo" href={pLink} target="blank">
+            Acesse o Código
+          </a>
+          <div>
+          {vLink ? (
+            <a class="projectLink_vercel" href={vLink} target="blank">
+              Experimente
+            </a>
+          ) : null}
+          </div>
+        </div>
       </div>
     </li>
   );

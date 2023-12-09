@@ -3,8 +3,8 @@
   padding-right: 1.5rem;
   margin-top: 1.5rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -14,6 +14,10 @@
   margin-top: 2.5rem;
   margin-bottom: 80px;
   border-radius: 20px;
+}
+
+.section>div{
+  min-width: 100%;
 }
 
 .section > div > h1 {
@@ -27,7 +31,7 @@
   margin-bottom: 1.2rem;
 }
 
-.section > div > span {
+.section > div > a>p {
   color: #6880ff;
   font-family: "Poppins";
   font-style: normal;
@@ -44,13 +48,28 @@ a{
   line-height: 30px;
   color: #6880ff;
   cursor: pointer;
-
+}
+p{
+  color:white;
+  line-height: 2rem;
+}
+section>div>a:hover{
+  text-decoration: underline
+}
+span{
+  color:rgb(237, 129, 129);
+  font-weight:900;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 860px) {
   .section {
     padding-left: 0rem;
     padding-right:0rem;
     margin-bottom: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .section>div{
+    min-width: 0;
   }
 }

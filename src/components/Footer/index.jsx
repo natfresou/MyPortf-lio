@@ -12,19 +12,13 @@ export const Footer = () => {
       <div className={style.rodape1}>
         <Title text="Contato" />
         <div>
-          <a href="https://www.linkedin.com/in/nat%C3%A1lia-freitas-8bb51426b/">
-            <img src={linkedin} alt="linkedin" />
+          <a href="https://www.linkedin.com/in/nat%C3%A1lia-freitas-8bb51426b/" target="blank">
+            <p>Linkedin</p>
           </a>
-          <a href="https://github.com/natfresou">
-          <img src={github} alt="github" />
+          <a href="https://github.com/natfresou" target="blank">
+          <p>Github</p>
           </a>
-          {/* <img src={linkedin} alt="linkedin" />
-          <img src={github} alt="" /> */}
         </div>
-      </div>
-      <div className={style.rodape2}>
-        <Texto text="Todos os direitos reservados - " />
-        <Texto text={user} />
       </div>
     </footer>
   );

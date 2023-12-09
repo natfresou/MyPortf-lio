@@ -4,13 +4,24 @@
 }
 ul {
   display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media(min-width: 615px){
+  ul{
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 840px) {
   .section {
     padding-left: 0rem;
   }
+
+
 }

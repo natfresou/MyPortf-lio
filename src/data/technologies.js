@@ -7,6 +7,9 @@ import postegreSQL from "../assets/PostgreSQL.png";
 import api_icon from "../assets/API_icon.png";
 import insomnia from "../assets/insominia.jfif";
 import sql from "../assets/sql.png";
+import python from "../assets/python_net.png"
+import django from "../assets/django-icon-svgrepo-com.png"
+import dbeaver from "../assets/dbeaver-head.png"
 
 export const technologies = [
   { name: "HTML", img: htmlIcon },
@@ -18,4 +21,7 @@ export const technologies = [
   { name: "insomnia", img:insomnia },
   { name: "PostegreSQL", img:postegreSQL },
   { name: "Express/TypeORM", img: api_icon },
+  { name: "Python", img:python  },
+  { name: "Django", img: django },
+  { name: "DBeaver", img: dbeaver },
 ];

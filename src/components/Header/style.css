@@ -7,10 +7,10 @@ header {
   flex-wrap: wrap;
   margin-bottom: 2rem;
   gap: 2rem;
-  border-width: 0px 0px 1px 0px;
+  border-width: 0px 0px 2px 0px;
   border-style: solid;
-  border-color: #ffffff;
-  padding-bottom: 0.5rem;
+  border-color: white;
+  padding-bottom: 0.8rem;
   width: calc(100%-2rem);
 }
 
@@ -32,15 +32,24 @@ header > div > .navLink {
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  border: 1.0px solid #6880ff;
+  background-color:  #6880ff;
+  border-radius: 10px;
+  padding:0.6rem;
 }
 
+header > div > .navLink:hover{
+  background-color:rgb(237, 129, 129);
+  border: 1.0px solid rgb(237, 129, 129);
+}
 
 @media (min-width: 840px) {
   header {
     justify-content: space-between;
     margin-right: 0rem;
     margin-left: 0rem;
+    padding-bottom: 0rem;
   }
 }
